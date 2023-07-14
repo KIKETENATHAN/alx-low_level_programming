@@ -1,14 +1,13 @@
 #include <stdio.h>
 /**
- * main - main entry point
- *
- * return: always 0 (success)
+ *main - main entry point
+ *Return: always 0 (success)
  */
 int main(void)
 {
-	int base_ten = 0;
+	char base_ten = '0';
 
-	while (base_ten <= 10)
+	while (base_ten <= '9')
 	{
 		putchar(base_ten);
 		base_ten++;
