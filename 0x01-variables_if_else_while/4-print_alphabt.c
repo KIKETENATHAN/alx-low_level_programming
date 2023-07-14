@@ -5,17 +5,15 @@
  */
 int main(void)
 {
-	char c;
+	char alphabet = 'a';
 
-	c = 'a';
-	while
-		(c <= 'z')
+	while (alphabet <= 'z')
 		{
-			if (c != 'q' && c == 'e')
+			if (alphabet != 'q' && alphabet == 'e')
 			{
-				putchar(c);
-				c++;
+				putchar(alphabet);
 			}
+				alphabet++;
 		}
 	putchar('\n');
 	return (0);
